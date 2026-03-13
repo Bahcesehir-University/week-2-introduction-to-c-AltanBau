@@ -29,13 +29,18 @@ int main()
     // TODO 1
     // Print your name
 
+    cout << "Altan Akyıldız" << endl;
+
 
     // TODO 2
     // Print your department
 
+    cout << "Mechatronics" << endl;
 
     // TODO 3
     // Print today's year
+
+    cout << "2026" << endl;
 
 
     cout << endl;
@@ -48,21 +53,21 @@ int main()
     // TODO 4
     // Create an integer variable called age
     // Assign your age to it
-
+    int age = 23;
 
     // TODO 5
     // Create a double variable called height
     // Example: 1.75
-
+    double height = 1.75;
 
     // TODO 6
     // Create a string variable called name
     // Store your name
-
+    string name = "Altan";
 
     // TODO 7
     // Print all variables
-
+    cout << age << " " <<  height << " " <<  name << endl;
 
     cout << endl;
 
@@ -75,15 +80,15 @@ int main()
 
     // TODO 8
     // Ask the user to enter their city
-
+    cout << "Enter city: ";
 
     // TODO 9
     // Read the city using cin
-
+    cin >> city;
 
     // TODO 10
     // Print: "You live in <city>"
-
+    cout << "You live in: " << city << endl;
 
     cout << endl;
 
@@ -97,29 +102,29 @@ int main()
 
     // TODO 11
     // Ask the user to enter first number
-
+    cout << "Enter firs nunmber: ";
 
     // TODO 12
     // Read first number
-
+    cin >> a;
 
     // TODO 13
     // Ask the user to enter second number
-
+    cout << "Enter second nunmber: ";
 
     // TODO 14
     // Read second number
-
+    cin >> b;
 
     // TODO 15
     // Create a variable called sum
     // store a + b
-
+    int sum;
+    sum = a + b;
 
     // TODO 16
-    // Print the sum
-
-
+    // Print the sum    
+    cout << "The sum is: " << sum << endl;
     cout << endl;
 
 
@@ -132,29 +137,30 @@ int main()
 
     // TODO 17
     // Ask the student name
-
+    cout << "Student name: ";
 
     // TODO 18
     // Read the student name
-
+    cin >> studentName;
 
     // TODO 19
     // Ask birth year
-
+    cout << "Birth year: ";
 
     // TODO 20
     // Read birth year
-
+    cin >> birthYear;
 
     // TODO 21
     // Calculate approximate age
     // age = 2026 - birthYear
-
+    int approx_age;
+    approx_age = 2026 - birthYear;
 
     // TODO 22
     // Print:
     // "Hello <name> your approximate age is <age>"
-
+    cout << "Hello " << studentName << " your approximate age is " << approx_age << endl;
 
     cout << endl;
     cout << "Lab Finished!" << endl;
